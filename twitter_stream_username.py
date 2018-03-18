@@ -21,7 +21,8 @@ def twitter_setup():
 
 extract = twitter_setup()
 
-tweets = extract.user_timeline(screen_name = "Saaqi__",count = 20)   # take twitter user screen name and minimum tweet count to extract
+tweets = extract.user_timeline(screen_name = "d4interactive",count = 20)   # take twitter user screen name and minimum tweet count to extract
+
 print("number of tweets extracted: {}.\n".format(len(tweets)))   # display the count of extracted tweets - count = 20
 
 print("5 recent tweets:\n")
